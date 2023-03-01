@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5af51d7315.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#header"><img src="images/P.PHOTO  (5).png" class="logo" alt="logo"></a>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>HI THERE!</h1>
+                <h2>I'm <span class="auto-type"></span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Harum accusantium quis voluptas temporibus
+                    officia quod magnam, nemo nulla.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------About------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/PHOTOs5.png" alt="">
+                    <div class="about-right">
+                        <h1 class="sub-title"> ABOUT ME</h1>
+                        <p class="about-par">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
+                            perferendis
+                            vel quis expedita
+                            distinctio officiis cupiditate asperiores, reprehenderit amet dolor a minima id fuga
+                            pariatur
+                            debitis molestiae vitae molestias non?</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI|UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>WEB DEVELOPMENT</span><br>Designing Web/App interfaces</li>
+                                <li><span>CREATIVE DESIGNS</span><br>Designing Web/App interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022 - CURRENT</span><br>Designing Web/App interfaces</li>
+                                <li><span>2019 - 2021</span><br>Designing Web/App interfaces</li>
+                                <li><span>2017 - 2019</span><br>Designing Web/App interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021</span><br>Designing Web/App interfaces</li>
+                                <li><span>2018</span><br>Designing Web/App interfaces</li>
+                                <li><span>2013</span><br>Designing Web/App interfaces</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1>What I enjoy</h1>
+                    <div class="about-down">
+                        <img src="images/P.PHOTO .png" alt="">
+                        <div class="about-text">
+                            <h2>FRONT - END DEVELOPMENT</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, beatae soluta numquam
+                                tempore suscipit nobis quia totam a facere?</p>
+                        </div>
+                        <h1>0<br>1</h1>
+                    </div>
+                    <div class="about-down">
+                        <h1>0<br>2</h1>
+                        <div class="about-text">
+                            <h2>UI | UX DESIGN</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, beatae soluta numquam
+                                tempore suscipit nobis quia totam a facere?</p>
+                        </div>
+                        <img src="images/P.PHOTO  (2).png" alt="">
+                    </div>
+                    <div class="about-down">
+                        <img src="images/P.PHOTO  (1).png" alt="">
+                        <div class="about-text">
+                            <h2>CREATIVE DESIGNS</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, beatae soluta numquam
+                                tempore suscipit nobis quia totam a facere?</p>
+                        </div>
+                        <h1>0<br>3</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------Portfolio------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">PORTFOLIO</h1> 
+            <p class = "sub-par">Here's a gist of projects I've done</p>           
+           <div class="tabs">
+                <div class="tabs__head">
+                    <div class="tabs__toggle is-active">
+                        <span class="tabs__name">All</span>
+                    </div>
+                    <div class="tabs__toggle">
+                        <span class="tabs__name">UI | UX</span>
+                    </div>
+                    <div class="tabs__toggle">
+                        <span class="tabs__name">Creative designs</span>
+                    </div>
+                    <div class="tabs__toggle">
+                        <span class="tabs__name">Branding</span>
+                    </div>
+                </div>
+
+                <div class="tabs__body">
+                    <div class="tabs__content is-active">
+                        <div class="work">
+                            <img src="images/1.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="work">
+                            <img src="images/2.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="work">
+                            <img src="images/3.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="work">
+                            <img src="images/4.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="work">
+                            <img src="images/5.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="work">
+                            <img src="images/6.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/7.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/8.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/10.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__content">
+                        <div class="work">
+                            <img src="images/1.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/2.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/9.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__content">
+                        <div class="work">
+                            <img src="images/3.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/4.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>                        
+                        <div class="work">
+                            <img src="images/6.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/7.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/8.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/10.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__content">
+                        <div class="work">
+                            <img class="image" src="images/5.png" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis labore
+                                    doloremque vero
+                                    alias pariatur in facere deleniti! Ullam culpa.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>                                  
+                    </div>                    
+                </div>
+            </div>            
+            <a href="#" class="btn1">See more</a>
+        </div>
+    </div>
+
+    <!-- ---------------------------------Contact------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">GET IN TOUCH</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quam quis culpa voluptatum,
+                        facilis.</p>
+                    <p><i class="fa-solid fa-paper-plane"></i>mbuthiabby@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+23057337899</p>
+                    <a href="images/Abby_Mbuthi_CV.pdf" download class="btn btn2">Download CV</a>
+                    <div class="social-icons">                        
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>                   
+                    </div>                    
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="How can I help?"></textarea>
+                        <button type="submit" class="btn btn2">Let's talk</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
